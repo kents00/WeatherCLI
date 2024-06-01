@@ -1,4 +1,7 @@
+# WeatherCLI
 This is a Python script that fetches the current weather and forecasts for the next three days. It uses the python_weather library to interact with the OpenWeatherMap API and the rich library for formatting and displaying the output. The script also includes functions to get the user's IP address and location.
+
+![Weather](https://github.com/kents00/WeatherCLI/assets/69900896/02f3b01a-e29e-4d84-8127-8c62e0b353d7)
 
 The primary purpose of this project is to provide a simple and user-friendly way to access current weather conditions and forecasts. It can be used to stay updated on the weather without needing to manually check multiple sources.
 
@@ -29,7 +32,7 @@ The primary purpose of this project is to provide a simple and user-friendly way
 ### **Installation Steps**
 
 1. **Install Python**:
-    - If you don't have Python installed, download and install it from the official Python website.
+    - If you don't have Python installed, download and install it from the official [Python website](https://www.python.org/downloads/).
 2. Install the necessary dependencies by running `pip install -r requirements.txt`
 
 ### **Running the Script**
