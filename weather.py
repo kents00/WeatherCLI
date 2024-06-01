@@ -63,11 +63,13 @@ async def getweather():
         weather = await client.get(location)
         current_datetime = datetime.datetime.now()
         formatted_datetime = current_datetime.strftime('%Y-%m-%d %I:%M %p')
+        ip_address = get_ip()
 
         console.print(Panel.fit(f"City: {location}", style="bold blue"))
         console.print(f"Date: {formatted_datetime}", style="bold green")
         console.print(
             f"Current Temperature: {weather.temperature} °C", style="bold yellow")
+        console.print(f"IP Address: {ip_address}", style="bold magenta")
 
         table = create_weather_table(weather)
         console.print(table)
